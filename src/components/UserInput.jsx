@@ -9,7 +9,7 @@ export default function UserInput({ onChange, userInput }) {
             required
             value={userInput.initialInvestment}
             onChange={(event) =>
-              onChange("initilaInvestment", event.target.value)
+              onChange("initialInvestment", event.target.value)
             }
           />
         </p>
@@ -20,7 +20,7 @@ export default function UserInput({ onChange, userInput }) {
             required
             value={userInput.annualInvestment}
             onChange={(event) =>
-              onChange("anualInvestment", event.target.value)
+              onChange("annualInvestment", event.target.value)
             }
           />
         </p>
